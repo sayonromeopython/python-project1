@@ -1,0 +1,30 @@
+#Critical Thinking Assignment1
+#A python program to add two numbers from the user inputs
+num1 = float(input('Please enter the first number,ber:'))
+num2 = float(input('Please enter the second number:'))
+#adding the two numbers given by the user
+added_nums = num1 + num2
+print('Addition of the two numbers result:',added_nums)
+#Subtraction of the two numbers ented by the user
+subtraction1 = num1 -num2
+subtraction2 = num2-num1
+print(' Subtracting the second input from the first input will give you:', subtraction1)
+print('subtracting the frist input from the second input will give you:', subtraction2)
+
+
+
+# Part two of the assignment
+# multiplying two number enter by a user
+num1 = input('Please enter your first number:')
+num2 = input('Please enter your second number:')
+division_result1 = num1/num2
+division_result2 = num2/num1
+print('Division of the first entry by the second entury will give:', division_result1)
+print('Division of second entry by the first entry will give:', division_result2)
+
+#Multiplication 
+#multiplying two number enter by the user
+num1 = float(input('Please enter the first multiplier:'))
+num2 = float(input('Please enter the second multiplier;'))
+mult_result = num1 * num2
+print('Multiplaction of entury one and entury two will give:', mult_result)
