@@ -1,0 +1,13 @@
+Short-Circuiting in Python
+Short-circuiting in programming occurs when the execution of a code/ program is becomes complete with going through the entire program or code. In other words, the result of a compound conditional expression is determined after evaluating the first conditional expression in a multiple conditional expression. 
+
+Boolean operators and expressions are utilized to create a Short-circuiting program in python. 
+The Boolean operators and and or are useful in creating short-circuiting program. 
+Short-circuiting example with the and operator. 
+Short-circuiting will not occurs with an and operator alone. 
+The Boolean operator and can be use combined two or more conditional expressions are combined. The result of those combined expressions is true only when all expressions are true. 
+
+
+Short-circuiting example with the or operator.
+The Boolean or operator can be used to combined multiple conditional expressions. The result is true when one expression is true. 
+
