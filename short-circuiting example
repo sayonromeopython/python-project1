@@ -1,0 +1,20 @@
+Example code of Short-circuiting in python
+This is a short-circuiting program to turn the light in room5 off if the room is empty or if the time is after 9:00 p.m..
+The program also includes a conditional to turn the light in room4 on if it is weekdays and if it is between 8:00 a.m. and 11;00 p.m. 
+
+
+room_5_empty = True  # Set to True if room 5 is empty, False otherwise
+current_time = 20.  # Representing the current time (in 24-hour format, 20 corresponds to 8 p.m.)
+is_weekday = True  # Set to True if it's a weekday, False if it's a weekend
+
+# Control the light in room 5
+if room_5_empty or current_time > 21:  # 9 p.m. represented as 21 in 24-hour format
+    print("Turning off the light in room 5")
+else:
+    print("Leaving the light in room 5 on")
+
+# Control the light in room 4
+if is_weekday and 8 <= current_time <= 23:  # Between 8 a.m. and 11 p.m.
+    print("Turning on the light in room 4 on weekdays between 8 a.m. and 11 p.m.")
+else:
+    print("Leaving the light in room 4 off")
