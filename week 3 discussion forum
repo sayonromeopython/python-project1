@@ -1,0 +1,36 @@
+#Three scenarios in which an array could be use for storing information.
+# Since I am a Liberian, I am going to give three real life scenarios in Liberia where arrays can be used for storing information. The location of those scenarios does not mather. 
+# Scenarios 1: Health Records: In healthcare facilities across Liberia or any other country, arrays can be used to manage and store patient records and medical data. 
+# Element in the array can represent and the array can store the patient's age, diagnoses, medications, etc. 
+# This data can help modernized the helthcare system in Liberia- providing better care, treacking disease and patients and controlling or proventing outbreak.
+
+# Scenario 2: Educational Grading System:
+ # Liberia behind most of the African countries in neaely all education statistics. An array can be created to store information that could help the Liberian education system 
+# track and solve the several education challenges. 
+# one example could be an Array for High Schools students in Liberia. The Array that can be used to maintain the grading and academic performance records of students. Each element in the array can represent a student name, 
+# student ID,
+# student grades,
+# attending information
+# This information can be use by the educational system that can be use to track students progress and help students who are falling behind.
+#
+
+# Scenario 3:
+# Agricultural Crop Management in Liberia
+# Agriculture is a signicant part odf Libera's economy. Arrays can be used to store information of the three main crops(Rice, natural rubber and Cassava) in Liberia. 
+# Each element in the array can represent  one of the three crops and the array can store the crops yields, harvest times, planting dates land quality for the crops.
+# Those information could be helpful for farmers on deciding irrigation, crops rotation and pest control. 
+
+
+code example
+# creating an array to store crop information
+crop_data = []
+#Adding crop data to the array
+crop1 ={"crop_type": "Rice", "planting_date": "2023-04-10","harvest_date": "2033-08-15", "yield": 5000}
+crop2 = {"crop_type": "Cassava", "planting_date": "2023-05-15", "harvest_date": "2023-09-30", "yield": 3500}
+
+crop_data.append(crop1)
+crop_data.append(crop2)
+
+# Accessing and printing crop information
+for crop in crop_data:
+    print(f"Crop Type: {crop['crop_type']} Planting Date: {crop['planting_date']}, Harvest Date: {crop['harvest_date']}, Yield: {crop['yield']} kg")
